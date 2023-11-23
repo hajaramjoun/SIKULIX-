@@ -1,0 +1,64 @@
+[debug (23/11/23 16:48:07)] Debug: setLogFile: C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix\SikuliX-1.1.0-SetupLog.txt
+[debug (23/11/23 16:48:07)] RunSetup: ... starting with no args given
+[debug (23/11/23 16:48:07)] RunSetup: Setup: 1.1.0 2015-10-06_17:22 in folder:
+C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix
+[debug (23/11/23 16:48:07)] RunSetup: RunningSystem: Windows 10.0
+[debug (23/11/23 16:48:07)] RunSetup: parent of jar/classes: C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix
+[debug (23/11/23 16:48:07)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_341-b10
+[debug (23/11/23 16:48:08)] init user preferences
+[debug (23/11/23 16:48:15)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 1 ---
+sikulixsetupIDE-1.1.0-forsetup.jar (IDE/Scripting)
+sikulixsetupAPI-1.1.0-forsetup.jar (Java API)
+ - with Jython
+--- Package 2 ---
+sikulixsetupAPI-1.1.0-forsetup.jar (done in package 1)
+--- Additions ---
+tessdata-eng (Tesseract)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (23/11/23 16:48:21)] FileManager: Downloading sikulixlibswin-1.1.0.jar having 10577 KB
+[debug (23/11/23 16:48:22)] FileManager: downloaded 10577 KB to:
+C:\Users\hamjoun\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixlibswin-1.1.0.jar
+[debug (23/11/23 16:48:22)] FileManager: download time: 1
+[debug (23/11/23 16:48:26)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (23/11/23 16:48:26)] FileManager: resetFolder:
+C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/hamjoun/OneDrive - Capgemini/Desktop/Sikulix/sikulixlibswin.jar
+[debug (23/11/23 16:48:26)] FileManager: Downloading sikulixsetupAPI-1.1.0-forsetup.jar having 2083 KB
+[debug (23/11/23 16:48:27)] FileManager: downloaded 2083 KB to:
+C:\Users\hamjoun\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixsetupAPI-1.1.0-forsetup.jar
+[debug (23/11/23 16:48:27)] FileManager: download time: 0
+[debug (23/11/23 16:48:30)] RunSetup: Copied from Downloads: sikulixapi
+[debug (23/11/23 16:48:30)] FileManager: resetFolder:
+C:\Users\hamjoun\OneDrive - Capgemini\Desktop\Sikulix\SetupStuff\Lib
+jar:file:/C:/Users/hamjoun/OneDrive - Capgemini/Desktop/Sikulix/sikulixapi.jar
+[debug (23/11/23 16:48:30)] FileManager: Downloading sikulixsetupIDE-1.1.0-forsetup.jar having 3858 KB
+[debug (23/11/23 16:48:31)] FileManager: downloaded 3858 KB to:
+C:\Users\hamjoun\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixsetupIDE-1.1.0-forsetup.jar
+[debug (23/11/23 16:48:31)] FileManager: download time: 0
+[debug (23/11/23 16:48:34)] RunSetup: Copied from Downloads: sikulix
+[debug (23/11/23 16:48:34)] RunSetup: 
+popAsk: --------------------
+If you click YES, you will get Jython version 2.7.0 (recommended)
+... but there is an issue with some rare UTF-8/Unicode situations,
+that usually appear on startup with UTF-8 ccharacters
+somewhere in the system environment
+If you encounter such problems with Jython 2.7.0
+run setup again and
+click NO to get Jython 2.5.4rc1
+--------------------
+[debug (23/11/23 16:48:41)] FileManager: Downloading jython-standalone-2.7.0.jar having 36154 KB
+[debug (23/11/23 16:48:43)] FileManager: downloaded 36154 KB to:
+C:\Users\hamjoun\AppData\Roaming\Sikulix\SikulixDownloads\jython-standalone-2.7.0.jar
+[debug (23/11/23 16:48:43)] FileManager: download time: 1
+[debug (23/11/23 16:48:47)] RunSetup: Copied from Downloads: Jython
+[debug (23/11/23 16:48:47)] FileManager: Downloading tesseract-ocr-3.02.eng.tar.gz with unknown size
+[error (23/11/23 16:48:47)] FileManager: problems while downloading
+java.io.FileNotFoundException: http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz
+[debug (23/11/23 16:48:50)] RunSetup: downloaded: tessdata-eng
